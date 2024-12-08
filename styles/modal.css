@@ -1,0 +1,39 @@
+.modal {
+  border: 2px solid var(--text-color, #000);
+  padding: 25px 30px;
+  color: var(--text-color, #000);
+  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  line-height: 1.5;
+  text-transform: uppercase;
+  background: var(--page-background-color, #fff);
+  max-inline-size: 355px;
+}
+
+.modal[open] {
+  display: grid;
+  gap: 30px;
+  grid-template-rows: repeat(2, min-content);
+}
+
+.modal::backdrop {
+  opacity: 0.75;
+  background: #000;
+}
+
+.modal__content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.modal__icon {
+  flex-shrink: 0;
+  inline-size: 39px;
+  block-size: 39px;
+  color: var(--button-text-color, #fff);
+  mix-blend-mode: difference;
+}
+
+.modal__button {
+  inline-size: 100%;
+}
