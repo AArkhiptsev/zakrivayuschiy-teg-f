@@ -4,12 +4,13 @@
 
   z-index: 1;
   border: 2px solid var(--text-color, #000);
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "PressStart2P"), fantasy;
   font-size: 14px;
   text-transform: inherit;
   background: var(--page-background-color, #fff);
   transition: box-shadow 0.3s ease;
   cursor: pointer;
+  min-width: 160px;
 }
 
 .button:focus {

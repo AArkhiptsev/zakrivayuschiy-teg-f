@@ -1,27 +1,26 @@
 @media (width <= 375px) {
-    .modal {
-      padding: 28px 34px 28px 40px;
-      max-inline-size: 340px;
-    }
-  
-    .button-save {
-      flex-direction: column;
-    }
-  
-    .button__icon {
-      block-size: 28px;
-      inline-size: 28px;
-    }
+  .modal {
+    padding: 30px 40px;
+    max-inline-size: 340px;
   }
-  
-  @supports (
-    (-webkit-text-stroke: 1px var(--page-background-color, #fff)) or
-      (text-stroke: 1px var(--page-background-color, #fff))
-  ) {
-    .card__img-label {
-      text-shadow: none;
-      -webkit-text-stroke: 1px var(--page-background-color, #fff);
-      text-stroke: 1px var(--page-background-color, #fff);
-    }
+
+  .button-save {
+    flex-direction: column;
   }
-  
+
+  .button__icon {
+    block-size: 28px;
+    inline-size: 28px;
+  }
+}
+
+@supports (
+  (-webkit-text-stroke: 1px var(--page-background-color, #fff)) or
+    (text-stroke: 1px var(--page-background-color, #fff))
+) {
+  .card__img-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--page-background-color, #fff);
+    text-stroke: 1px var(--page-background-color, #fff);
+  }
+}
