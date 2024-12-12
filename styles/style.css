@@ -42,7 +42,6 @@
   justify-items: center;
   justify-content: center;
   font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
-  line-height: normal;
   text-transform: uppercase;
   align-content: center;
   line-height: 6rem;
