@@ -2,7 +2,7 @@
   border: 2px solid var(--text-color, #000);
   padding: 25px 30px;
   color: var(--text-color, #000);
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "PressStart2P"), fantasy;
   line-height: 1.5;
   text-transform: uppercase;
   background: var(--page-background-color, #fff);

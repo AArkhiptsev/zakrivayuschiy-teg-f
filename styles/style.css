@@ -11,7 +11,7 @@
 */
 
 .page {
-  font-family: var(--page-main-font-family, "Inter", sans-serif);
+  font-family: var(--page-main-font-family, "Inter"), sans-serif;
   font-variation-settings: "wght" var(--page-main-font-weight, 400);
   padding-block-start: 100px;
   color: var(--text-color, #000);
@@ -41,7 +41,7 @@
   display: grid;
   justify-items: center;
   justify-content: center;
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "PressStart2P"), fantasy;
   text-transform: uppercase;
   align-content: center;
   line-height: 6rem;
@@ -66,7 +66,6 @@
   justify-items: center;
   gap: 52px;
   padding-block-end: 105px;
-
 }
 
 .cards-list {
@@ -105,7 +104,7 @@
   opacity: 0.5;
 
   color: var(--text-color, #000);
-  font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
+  font-family: var(--page-accent-font-family, "PressStart2P"), fantasy;
 
   font-size: 14px;
   line-height: normal;
@@ -160,4 +159,3 @@
 .card__icon-button:focus-visible {
   border-color: var(--text-color, #000);
 }
-

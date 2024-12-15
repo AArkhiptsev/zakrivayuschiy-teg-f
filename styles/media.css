@@ -1,7 +1,20 @@
 @media (width <= 375px) {
+  .header {
+    min-block-size: 327px;
+  }
+
+  .card__img-label {
+    inset-inline-end: 11px;
+  }
+
   .modal {
     padding: 30px 40px;
     max-inline-size: 340px;
+    font-size: 90%;
+  }
+
+  .button {
+    min-width: auto;
   }
 
   .button-save {
@@ -11,6 +24,11 @@
   .button__icon {
     block-size: 28px;
     inline-size: 28px;
+  }
+
+  .header__title {
+    padding-top: 62px;
+    line-height: 0.5rem;
   }
 }
 

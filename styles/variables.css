@@ -18,6 +18,7 @@
   --like-main-body-color: none;
   --like-contour-color: var(--text-color, #000);
   --like-sparks-color: #f00;
+  --like-core-color: #fff;
 
   --button-text-color: var(--page-background-color, #fff);
 }
