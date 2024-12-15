@@ -13,10 +13,6 @@
     font-size: 90%;
   }
 
-  .button {
-    min-width: auto;
-  }
-
   .button-save {
     flex-direction: column;
   }
